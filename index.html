@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debasish Mohanta</title>
+
+    <!-- Normal Meta Tags -->
+
+    <meta name="author" content="Debasish Mohanta">
+    <meta name="description" content="My Portfolio Site Template using Bootstrap and React">
+    <meta name="keywords" content="Debasish , DebasishMohanta, debasish2018rta, portfolio, about-me, Aboutme, Contact Section, Skills">
+    <meta name="robots" content="index, follow">
+
+    <!-- Social Media Meta Tags -->
+
+    <meta property="og:title" content="My Portfolio Website Template">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Debasish Mohanta's Portfolio Site Home Page Template">
+    <meta property="og:site_name" content="Debasish's Website">
+    <meta property="og:image" content="./debasish_mohanta_lipun-modified.png">
+
+    <!-- favicon -->
+
+    <link rel="icon" href="./android-chrome-192x192.png">
+    <link rel="icon" href="./favicon-32x32.png">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color:white;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#home"><span class="text-white fw-bold bg-primary py-1 px-2 rounded-1">Debasish</span> <span class="fw-bold">Mohanta</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>  
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="context" id="home">
+            <img src="./debasish_mohanta_lipun-modified.png" alt="My Image" width="200px" class="img-fluid" style="border: 5px solid white;border-radius: 50%;">
+            <h1 class="headline">
+                <b>Debasish Mohanta</b>
+            </h1>
+    
+            <div style="font-size: 30px;text-align: center;" class="web">
+                <i><span id="typed"></span></i>
+            </div>
+            <p class="tagline">
+                persuing Bachelor's Degree in the field of Computer Science and Engineering(CSE) at 
+                <span class="punchline">Lovely Professional University.</span>
+            </p>
+            <br>
+            <br>
+            <button class="btn btn-primary btn-lg" style="border-radius: 3px;">Learn More</button>
+    
+        </div>
+        <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <div class="container" style="margin: 100px 0; padding: 50px 0;width: 80%; margin: 100px auto;" id="about">
+            <h3 style="text-align: left; margin-bottom: 70px;font-weight: bold; letter-spacing: 2px;" class="about-headline">About <span style="color: orangered;">Me</span></h3>
+            <div class="row gy-5 d-flex align-items-center">
+                <div class="col-md-6">
+                    <h2 style="font-weight: bold; margin-bottom: 30px;" class="about-tagline">A Passonate Front-end and Back-end Developer.</h2>
+                    <p style="font-size: 18px;color: gray; margin-bottom: 50px;" class="about-text">Hello! I'm Debasish Mohanta. I'm a web developer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+                    <button class="btn btn-large text-light about-btn" style="background-color: #D1701F;">Download CV</button>
+                </div>
+                <div class="col-md-4 offset-lg-2">
+                    <div class="stacked-cards">
+                        <!-- Repeat if you want to have more cards -->
+                        <div class="stacked-cards__card">
+                            <div class="card shadow-lg">
+                                <img src="./debasish_mohanta_lipun.jpg" alt="" class="img-fluid card-image inner-card-img">
+                            </div>
+                        </div>
+                    
+                        <!-- Main card's content -->
+                        <div class="card shadow-lg" style="background-color: orangered;">
+                            <img src="./debasish_mohanta_lipun.jpg" alt="" class="img-fluid card-image inner-card-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- My Sills -->
+
+        <div class="container" style="margin: 100px 0; padding: 50px 0;width: 80%; margin: 100px auto;" id="skills">
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+                    <h3 class="skills-headline" style="margin-bottom: 70px;font-weight: bold; letter-spacing: 2px;">My <span style="color: orangered;">Skills</span></h3>
+                </div>
+            </div>
+            <div class="row gy-5 d-flex align-items-center">
+                <div class="col-md-6">
+                    <div class="row gy-5">
+                        <div class="col-md-4" style="margin-bottom: 10px;">
+                            <div class="card shadow skills-card" style="background-color: #D1701F; color:white;padding: 10px 10px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Development</h5>
+                                    <i style="font-size: 50px;" class="bi bi-terminal-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 offset-md-2 up">
+                            <div class="card shadow skills-card" style="background-color: #D1701F; color:white;padding: 10px 10px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Design</h5>
+                                    <i style="font-size: 50px;" class="bi bi-vector-pen"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" style="margin-bottom: 10px;">
+                            <div class="card shadow skills-card" style="background-color: #D1701F; color:white;padding: 10px 10px;">
+                                <div class="card-body ">
+                                    <h5 class="card-title">Maintain</h5>
+                                    <i style="font-size: 50px;" class="bi bi-gear-wide-connected"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 offset-md-2 up">
+                            <div class="card shadow skills-card" style="background-color: #D1701F; color:white;padding: 10px 10px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quality</h5>
+                                    <i style="font-size: 50px;" class="bi bi-award-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div>
+                        <h2 style="font-weight: bold; margin-bottom: 30px;" class="skills-tagline">I have high skills in developing and programming</h2>
+                        <p class="skills-text" style="font-size: 18px;color: gray; margin-bottom: 50px;" class="about-text">For more than 2 years I have been accomplishing enough with modern Web Development, new generation programming language, and Full Stack developers to deliver cost-effective solutions.</p>
+
+                        
+
+                        <div style="margin-bottom: 20px;" class="skills-progress">
+                            <h5 style="margin-bottom: 10px;">Web Development <span style="float: right;">90%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 20px;" class="skills-progress">
+                            <h5 style="margin-bottom: 10px;">Programming Language<span style="float: right;">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills-progress">
+                            <h5 style="margin-bottom: 10px;">Web Design <span style="float: right;">75%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Section -->
+        <div style="background-color: #F9F9F9;" id="portfolio">
+            <h3 style="text-align: left; margin-bottom: 70px;font-weight: bold; letter-spacing: 2px;width: 80%; margin:0 auto;padding: 100px 0 0 0;" class="portfolio-headline">My <span style="color: orangered;">Portfolio</span></h3>
+            <p style="font-size: 18px;color: gray; margin-bottom: 50px;width: 80%; margin: 10px auto;" class="portfolio-text">For more than 2 years I have been accomplishing enough with modern Web Development,<br>Here are some of my Projects you may Like.</p>
+
+            <div class="owl-carousel" style="width: 80%; margin: 100px auto;">
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 2</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 4</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 5</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 6</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 7</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 8</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 9</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./sergey-shmidt-koy6FlCCy5s-unsplash.jpg" class="card-img-top img-fluid" alt="card-image">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title 10</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <!-- Education Section  -->
+        <div class="container" style="margin: 100px 0; padding: 50px 0;width: 80%; margin: 100px auto;" id="education">
+            <div class="row">
+                <div class="col-md-6">
+                    
+                </div>
+                <div class="col-md-6">
+                    <h3 class="education-headline" style="margin-bottom: 70px;font-weight: bold; letter-spacing: 2px;">My <span style="color: orangered;">Education</span></h3>
+                </div>
+            </div>
+            <div class="row gy-5">
+                <div class="col-md-6">
+                    <img src="./SIMOC.webp" alt="" class="img-fluid achievement-1" style="margin-bottom: 50px;">
+                    <img src="./Topperlist.webp" alt="" class="img-fluid achievement-2">
+                </div>
+
+                <div class="col-md-6">
+                    <div>
+                        <h2 style="font-weight: bold; margin-bottom: 30px;" class="education-tagline">Here where I 've studied till now & achived many skills.</h2>
+                        <p class="education-text" style="font-size: 18px;color: gray; margin-bottom: 50px;" class="about-text">For more than 10 years I have been improved my Educationcal Skills through these Institutes.</p>
+
+                        
+
+                        <div class="timeline">
+                            <!-- Left vertical line -->
+                            <div class="timeline__line"></div>
+                        
+                            <!-- The timeline items timeline -->
+                            <div class="timeline__items">
+                                <!-- Each timeline item -->
+                                <div class="timeline__item">
+                                    <!-- The circle and title -->
+                                    <div class="timeline__top">
+                                        <!-- The circle -->
+                                        <div class="timeline__circle"></div>
+                        
+                                        <!-- The title -->
+                                        <div class="timeline__title">
+                                            <h4>Lovely Professional University (2020 - Present)</h4>
+                                        </div>
+                                    </div>
+                        
+                                    <!-- The description -->
+                                    <div class="timeline__desc">
+                                        <p>Currently I'm persuing Bachelor's degree here in CSE.I have learned many Programming Languages like Python, Java etc here.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline__item">
+                                    <!-- The circle and title -->
+                                    <div class="timeline__top">
+                                        <!-- The circle -->
+                                        <div class="timeline__circle"></div>
+                        
+                                        <!-- The title -->
+                                        <div class="timeline__title">
+                                            <h4>Lord Buddha Public School (2018 - 2020)</h4>
+                                        </div>
+                                    </div>
+                        
+                                    <!-- The description -->
+                                    <div class="timeline__desc">
+                                        <p>I have completed my Senior Secondary Schooling at LBS public School,Kota and achieved more than 80%.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline__item">
+                                    <!-- The circle and title -->
+                                    <div class="timeline__top">
+                                        <!-- The circle -->
+                                        <div class="timeline__circle"></div>
+                        
+                                        <!-- The title -->
+                                        <div class="timeline__title">
+                                            <h4>Rtapalli Vidyapitha (2013-2018)</h4>
+                                        </div>
+                                    </div>
+                        
+                                    <!-- The description -->
+                                    <div class="timeline__desc">
+                                        <p>I have completed my Higher Secondary Schooling from Rtapalli Vidyapitha,Khurdha.I have achieved many Olympiads like SASMO, SIMOC, RMO etc. here and passed with 10 CGPA.</p>
+                                    </div>
+                                </div>
+                                <!-- Repeat other items -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Contact -->
+
+        <div class="bg-light" style="margin: 0; padding: 150px 0;" id="contact">
+            <div class="container">
+                <h3 style="text-align: left; margin-bottom: 70px;font-weight: bold; letter-spacing: 2px;" class="contact-headline">Contact <span style="color: orangered;">Me</span></h3>
+                <div class="row gy-5 d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h2 style="font-weight: bold; margin-bottom: 30px;" class="contact-tagline">Do you want to share all of dreams with me? let's connect and grow together!</h2>
+                        <p style="font-size: 18px;color: gray; margin-bottom: 50px;" class="contact-text">Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday.
+                        </p>
+
+                        <div class="my-4 contact-list" style="font-size: 20px;">
+                            <p><span style="font-weight: bold; color: brown;"><i class="bi bi-telephone-plus-fill"></i> Phone No:</span> (+91) 8018348919</p>
+                            <p><span style="font-weight: bold; color: brown;"><i class="bi bi-envelope-check-fill"></i> Email:</span> debasish2018rta@gmail.com</p>
+                            <p><span style="font-weight: bold; color: brown;"><i class="bi bi-geo-alt-fill"></i> Location:</span> Bhubaneswar, Odisha</p>
+                            <p><span style="font-weight: bold; color: brown;"><i class="bi bi-globe2"></i> Languages: </span>www.portfoliodebasish.herokuapp.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 offset-lg-1">
+                        <form action="">
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="user_first_name" class="form-label">First name:</label><br>
+                                    <input class="form-control" type="text" id="user_first_name" name="user_first_name">
+                                </div>
+                                <div class="col">
+                                    <label for="user_last_name" class="form-label">Last name:</label><br>
+                                    <input class="form-control" type="text" id="user_last_name" name="user_last_name">
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" name="message" id="message" cols="20" rows="6"></textarea>
+                            </div>
+
+                            <div class="d-grid">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="border-top">
+            <div class="container py-3 pt-5">
+                <div class="row">
+                    <div class="col-12 col-md-4 text-center">
+                        <p class="text-sm-center text-md-start"><span class="text-white fw-bold bg-primary py-1 px-2 rounded-1">Debasish</span> <span class="fw-bold">Mohanta</span></p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p class="text-center fw-bold">@ Made by Debasish 2022</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <ul class="list-inline text-md-end text-sm-center">
+                            <li class="list-inline-item"><i class="bi bi-linkedin"></i></li>
+                            <li class="list-inline-item"><i class="bi bi-instagram"></i></li>
+                            <li class="list-inline-item"><i class="bi bi-twitter"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    </main>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.js" integrity="sha512-ioFpA4cD4gmoOhHglW4f6gep7w+YL7UMKtXx4ebJ5NN4SscmnZYYmSjkA+DaHGvBI4wpYVPx2C7DmmV9TgbIbQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./owl-carousel.js"></script>
+    <script src="./scrollreveal.js"></script>
+    <script src="./typed.js"></script>
+</body>
+</html>
